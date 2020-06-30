@@ -1,0 +1,102 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: sans-serif;
+    background-color: #d63031;
+    transition: .6s linear;
+}
+.product-card{
+    width: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    border-radius: 25px;
+    padding:40px 20px;
+    text-transform: uppercase;
+}
+h1{
+    font-size: 28px;
+}
+span.shoes{
+    color: #d63031;
+    transition: .6s;
+}
+p{
+    font-size: 13px;
+    text-transform: none;
+    color: #7a7d80;
+}
+img{
+    width: 100%;
+    padding: 50px 0;
+    transition: .6s;
+}
+.product-color{
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    
+}
+span.red{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #d63031;
+    cursor: pointer;
+    transition: .2s ease-in-out;
+    margin-right: 15px
+}
+span.blue{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #0c2461;
+    cursor: pointer;
+    transition: .2s ease-in-out;
+    margin-right: 15px
+}
+span.green{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #10ac84;
+    cursor: pointer;
+    transition: .2s ease-in-out;
+    margin-right: 15px
+}
+span.bayge{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #EAB543;
+    cursor: pointer;
+    transition: .2s ease-in-out;
+    margin-right: 15px
+}
+.product-color span.active{
+    transform: scale(1.2);
+}
+.product-color span:hover{
+    transform: scale(1.2);
+}
+.product-info span{
+    font-size: 28px;
+    color: #d63031;
+    transition: .6s;
+}
+.product-info a{
+    float: right;
+    text-decoration: none;
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 25px;
+    font-weight: 600;
+    color: #d63031;
+    font-size: 15px;
+    transition: .6s;
+}
